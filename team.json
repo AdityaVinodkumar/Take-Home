@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "firstName": "Michael",
+        "lastName": "Scott",
+        "title": "Regional Manager",
+        "story": "I was born in a hospital. My mom was a doctor, my dad was an architect, and my older brother was an engineer. I was always good at what I do, and I never looked back. I got into tech when I was 17, and I still do today.",
+        "favoriteColor": "#3466F2",
+        "photoUrl": "http://economicsoftheoffice.com/static/images/people/Michael.png",
+        "createdAt": "2022-05-16T20:51:52.445Z",
+        "updatedAt": "2022-05-16T20:51:52.445Z"
+    },
+    {
+        "id": 2,
+        "firstName": "Dwight",
+        "lastName": "Schrute",
+        "title": "Assistant to the Regional Manager",
+        "story": "My name is Dwight Schrute and I am an assistant to the regional manager. I am a very popular guy in the office, and I am always up for a good joke. I love to play the foosball, and I have a pet pug named Scooter.",
+        "favoriteColor": "#3466F2",
+        "photoUrl": "http://economicsoftheoffice.com/static/images/people/Dwight.png",
+        "createdAt": "2022-05-16T20:51:52.446Z",
+        "updatedAt": "2022-05-16T20:51:52.446Z"
+    },
+    {
+        "id": 3,
+        "firstName": "Jim",
+        "lastName": "Halpert",
+        "title": "Assistant to the Regional Manager",
+        "story": "My name is Jim Halpert and I am an assistant to the regional manager. I am a very popular guy in the office, and I am always up for a good joke. I love to play the foosball, and I have a pet pug named Scooter.",
+        "favoriteColor": "#3466F2",
+        "photoUrl": "http://economicsoftheoffice.com/static/images/people/Jim.png",
+        "createdAt": "2022-05-16T20:51:52.446Z",
+        "updatedAt": "2022-05-16T20:51:52.446Z"
+    },
+    {
+        "id": 4,
+        "firstName": "Pam",
+        "lastName": "Beesly",
+        "title": "Receptionist",
+        "story": "My name is Pam Beesly and I am a receptionist. I am a very popular guy in the office, and I am always up for a good joke. I love to play the foosball, and I have a pet pug named Scooter.",
+        "favoriteColor": "#3466F2",
+        "photoUrl": "http://economicsoftheoffice.com/static/images/people/Pam.png",
+        "createdAt": "2022-05-16T20:51:52.446Z",
+        "updatedAt": "2022-05-16T20:51:52.446Z"
+    }
+]

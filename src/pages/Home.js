@@ -1,9 +1,9 @@
 import React from 'react';
 import axios from 'axios';
-import TeamMember from '../TeamMember';
-import './App.css';
+import TeamMember from '../components/TeamMember';
+import '../App.css'
 
-class App extends React.Component {
+class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -51,10 +51,10 @@ class App extends React.Component {
           />
         ))}
         {/* Make this new team member link to your form! */}
-        <TeamMember id="new" name="Join us!" title="New Teammate" />
+        <TeamMember id="new" name="Join us!" title="New Teammate"/>
       </div>
     );
   }
 }
 
-export default App;
+export default Home;

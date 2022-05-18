@@ -18,6 +18,12 @@ class TeamMember extends React.PureComponent {
     favoriteColor: '#3466F2'
   };
 
+  onNewTeamMember(){
+    if (this.props.id == "new"){
+      window.location.href = '/create';
+    }
+  }
+
   render() {
     return (
       <div className="container">
@@ -30,7 +36,7 @@ class TeamMember extends React.PureComponent {
             />
           </div>
           <h2 className="title">{this.props.title}</h2>
-          <h1 className="name">{this.props.name}</h1>
+          <h1 className="name" onClick={()=>{this.onNewTeamMember()}} style={{cursor:"pointer"}}>{this.props.name}</h1>
         </header>
         <div className="body">{this.props.story}</div>
         <footer style={{ backgroundColor: this.props.favoriteColor }}>
